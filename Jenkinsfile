@@ -23,7 +23,6 @@ pipeline {
                 echo 'Packaging....'
                 sh 'npm install'
                 sh 'npm run Package'
-                #archiveArtifacts artifacts: '**//*.zip', fingerprint: true
             }
         }
     }
